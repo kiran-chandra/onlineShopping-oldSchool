@@ -12,7 +12,7 @@ public class PageController {
 	public ModelAndView index() {
 		ModelAndView mav = new ModelAndView("page");
 		mav.addObject("greeting", "Welcome to draft pages of OnlineShopping");
-		return mav;
+		return mav; 
 	}
 	
 //	@RequestMapping(value="/test")
